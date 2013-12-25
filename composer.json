@@ -3,24 +3,11 @@
         "phpunit/phpunit": "3.7.*",
 		"zendframework/zendframework1": "1.12.*",
 		"twitter/bootstrap": "v2.3.2",
-		"smarty/smarty":"3.1.7"
+		"smarty/smarty": "3.1.16"
         },
     "autoload": {
         "psr-0": {
             "": "library/"
         }
-    },
-     "repositories": [
-        {
-           "type": "package",
-           "package": {
-               "name": "smarty/smarty",
-               "version": "3.1.7",
-               "dist": {
-					"url": "http://www.smarty.net/files/Smarty-3.1.7.zip",
-					"type": "zip"
-               }
-           }
-        }
-    ]
+    }
 }

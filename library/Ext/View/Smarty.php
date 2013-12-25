@@ -325,9 +325,9 @@ class Ext_View_Smarty extends Zend_View_Abstract
      */
     private function _loadSmarty()
     {
-        if (!class_exists('Smarty', true)) {
-            require_once 'Smarty/Smarty.class.php';
-        }
+//         if (!class_exists('Smarty', true)) {
+//             require_once 'Smarty/Smarty.class.php';
+//         }
 
         $this->_smarty = new Smarty();
 
